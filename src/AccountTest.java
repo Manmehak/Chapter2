@@ -49,7 +49,7 @@ public class AccountTest {
         System.out.printf("Enter amount to deposit in %s Account : ", obj2.getName());
         double deposit2= s.nextDouble();
         System.out.printf("Adding %.2f in %s Account ...\n", deposit2, obj2.getName());
-        obj1.deposit(deposit2);
+        obj2.deposit(deposit2);
 
         System.out.printf("%s Balance : %.2f \n", obj2.getName(), obj2.getBalance());
 
